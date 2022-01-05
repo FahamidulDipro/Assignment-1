@@ -14,6 +14,12 @@ p {
     color: rgb(82, 80, 80);
 }
 
+.normal_headings {
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+
 
 /* First Section Style Starts */
 
@@ -127,3 +133,15 @@ p {
 
 
 /* Second Section Style Ends */
+
+
+/* Third Section Style Starts */
+
+.third_section .image_container img {
+    height: 367px;
+    width: 77%;
+    margin-top: 20px;
+}
+
+
+/* Third Section Style Ends */
