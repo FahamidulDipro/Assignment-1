@@ -3,6 +3,11 @@
     padding: 0;
 } */
 
+h2,
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
 
 /* First Section Style Starts */
 
@@ -30,7 +35,9 @@
 
 .image_container img {
     height: 300px;
-    width: 100%;
+    width: 300px;
+    margin-left: 17px;
+    margin-top: -53px;
 }
 
 .giant_title {
@@ -49,6 +56,17 @@
 .text_container p {
     font-size: 18px;
     margin-top: -24px;
+}
+
+.btn {
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
 }
 
 
