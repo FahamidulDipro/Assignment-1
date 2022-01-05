@@ -145,3 +145,48 @@ p {
 
 
 /* Third Section Style Ends */
+
+
+/* Contact Section Style Starts */
+
+form {
+    width: 100%;
+    border: 2px solid red;
+    text-align: left;
+    padding-left: 200px;
+}
+
+input[type=text] {
+    width: 70%;
+    margin: 20px 0;
+    padding: 20px;
+    font-size: 20px;
+}
+
+input[type=email] {
+    width: 70%;
+    margin: 20px 0;
+    padding: 20px;
+    font-size: 20px;
+}
+
+input[type=number] {
+    width: 70%;
+    margin: 20px 0;
+    padding: 20px;
+    font-size: 20px;
+}
+
+textarea {
+    width: 70%;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.submit_btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* Contact Section Style Ends */
