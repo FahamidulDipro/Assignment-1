@@ -4,7 +4,7 @@
 } */
 
 body {
-    background-color: whitesmoke;
+    background-color: #e5dad63d;
 }
 
 h2,
@@ -16,7 +16,7 @@ p {
 
 .normal_headings {
     font-size: 40px;
-    color: black;
+    color: #211A17;
     font-weight: bold;
 }
 
@@ -30,6 +30,10 @@ p {
     width: 70%;
     margin: auto;
     margin-top: 50px;
+}
+
+.left_border_part {
+    border-left: 5px solid orchid;
 }
 
 .text_container {
@@ -52,15 +56,17 @@ p {
 
 .giant_title {
     font-size: 60px;
-    margin: 0;
-    padding: 0;
+    margin: 30px 0 0 10px;
+    padding: 10px;
     line-height: 10px;
 }
 
 .colored_heading {
     font-size: 60px;
     margin-top: 25px;
-    color: #88B5F0;
+    color: #a427af;
+    padding-left: 10px;
+    margin-left: 10px;
 }
 
 .text_container p {
@@ -69,7 +75,7 @@ p {
 }
 
 .btn {
-    background-color: #7611DE;
+    background-color: #863e24;
     color: white;
     padding: 10px;
     cursor: pointer;
@@ -81,7 +87,7 @@ p {
 }
 
 .btn:hover {
-    background-color: #a360e6;
+    background-color: #863e24b4;
 }
 
 
@@ -95,7 +101,7 @@ p {
 }
 
 .centered_heading span {
-    color: #88B5F0;
+    color: #a427af;
 }
 
 
@@ -112,15 +118,15 @@ p {
 }
 
 .card_1 {
-    background-color: #88b5f067;
+    background-color: #a427af31;
 }
 
 .card_2 {
-    background-color: #7811de3f;
+    background-color: #863e2444;
 }
 
 .card_3 {
-    background-color: #f4993e42;
+    background-color: #5b423850;
 }
 
 .card h3 {
@@ -151,8 +157,10 @@ form {
     width: 100%;
     text-align: left;
     padding-left: 250px;
-    background-color: #E0E0E5;
     border-radius: 10px;
+    background-image: linear-gradient(rgba(229, 218, 214, 0.89), rgba(229, 218, 214, 0.726)), url(images/pictures/coding.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
 }
 
 input[type=text] {
@@ -195,11 +203,42 @@ textarea {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 30px;
+    background-color: #211A17;
+}
+
+.submit_btn:hover {
+    background-color: #211a17c2;
 }
 
 .orange_colored_span {
-    color: #f4993E !important;
+    color: #a427af !important;
 }
 
 
 /* Contact Section Style Ends */
+
+
+/* Footer Starts */
+
+footer {
+    padding: 20px;
+    background-color: #211A17;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer h3 {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+}
+
+footer h3 span {
+    color: #a427af;
+}
+
+
+/* Footer Ends */
