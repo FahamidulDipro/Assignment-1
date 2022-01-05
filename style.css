@@ -1,0 +1,20 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+
+/* First Section Style Starts */
+
+.container {
+    /* min-height: 50vh; */
+    display: flex;
+    border: 2px solid blue;
+    height: 300px;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+/* First Section Style Ends */
