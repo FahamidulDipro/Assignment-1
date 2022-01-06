@@ -111,6 +111,7 @@ p {
     padding: 20px;
     margin: 20px;
     border-radius: 20px;
+    width: 50%;
 }
 
 .card img {
